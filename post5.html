@@ -68,7 +68,7 @@
 
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/Post3-background.jpg')">
+  <header class="masthead" style="background-image: url('img/commonsensehome.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -91,64 +91,19 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>This week I conducted a mobile usability test of the same website I used last week for usability testing. The sushi restaurant, <a href="https://www.sushimakiburien.com/" target="_blank">Sushi Maki</a>. 
+          <p>A few people shared with me they never thought of accessibility until someone asked them about it. I believe this holds true for many people. We take for granted our basic abilities of sight and hearing. We then, unknowingly, neglect to consider the difficulties others who do not have the same abilities would encounter as they navigate through their everyday lives. As digital screen technology continue to gain prevalence in our daily activities, it is imperative for web developers and designers to take into consideration how someone without sight or hearing can use their website.<br><br>
+            
+            This week I will evaluate for accessibility the same website I analyzed in my first post for usability, <a href="https://www.commonsensemedia.org" target="_blank" >commonsensemedia.org </a>. The site’s purpose is to provide parents and educators with information, reviews, and guidelines on the different types of media available. The website’s aim is to help parents and educators make informed decisions about the media kids encounter. They do this with reviews from adults and kids along with attributing different ratings on the media, such as age appropriateness, type of message, violence, sex, language, etc.
           <p>
-            <h4><b>Test Summary</b></h4>
-            <b>Purpose</b>: To test for ease of use on a mobile phone, clarity of offerings, and site’s purpose.</p>
-            <p><b>Testers:</b><br>
-                <ul>
-                  <li>Older gentlemam man, handy man--self described as a "technology novice";</li>
-                  <li>43 year old woman, school administrator--hates to order food online, but loves the convenience;</li>
-                  <li>and 40 year old women, senior web developer--who does not like raw foods.</li>
+            <h4><b>Accessibility Checker</b></h4>
+            <p>I used the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/glance/" target="_blank"> WCAG 2.1 at a Glance</a> as a reference standards for my evaluation. I also used a free accessibility checker from the University of Toronto.  The <a href="https://achecker.ca/checker/" target="_blank"> Accessibility Checker </a>is an open source web accessibility evaluation tool that was developed in 2009 by the Inclusive Design Research Centre of the University of Toronto. With this  tool, the user can submit a web page via its URL or by uploading its HTML file. I used the tool to evaulate the commonsensemedia site against the WCAG 2.0 guidelines. 
+            </p>
+          The checker found 51 known problems and 1111 potential problems. The <a href="Report-known_problems.pdf" target="_blank"><b><font color="red">report on known problems</b></font></a> found the the most problem with the navigability of the site. The checker found many elements did not have a title or text attributed to the element. It also found non-text content did not have alternative text. Additionally, forms input did not have input assistance which could be fixed easily with adding text labels to the forms.<br><br>
 
-                </ul><p>
-            <p><b>Method</b>: I observed each tester individually. To remove the variable of different devices and operating systems, each tester used the installed web browser on the same Samsung Note8.</p>
-          </p>
-          <h4><b>Results Summary</b></h4>
-          I followed the same <a href="Project_Usability_Testing_Script.pdf" target="_blank"><b><font color="red">script</b></font></a> I used last week for general usability.
-          We started on the the home page. Each tester had a similar first impression of the homepage, that it wasn't much on the page. The handyman stated that it's clear that it is a site for a sushi restaurant. Both the school administrator and web developer, indicated the bareness of the page was unattractive.</p>
-        <p>
-        <div class="row">
-            <div class="col-6">
-              <span class="caption text-muted">Screenshots of the homepage taken April 27, 2019:</span>
-              <img class="img-fluid" src="img/SushiMaki_mobile-home.jpg" alt="">
-            </div>
-            <div class="col-6">
-              <span class="caption text-muted">Screenshots of the homepage with menu taken April 27, 2019:</span>
-              <img class="img-fluid" src="img/SushiMaki_mobile-menu.jpg" alt="">
-            </div>
-        </p>
-      <p>The handyman's first activity was to swipe down to "Search Our Menu". To his dismay, when he tapped on the "Search products..." box, it did not bring up the restuarant's menu. He was already exasperated by this time and needed coaxing and coaching to continue on. He did not immediately know how to find the food selection menu. He did not know that tapping the black square with the three white lines on the upper right corner of the page would bring up the menu. When he finally found the food menu, he did not find it very helpful. He also felt that it was a bad choice not to have pictures of the food. His exact words were "Who ever thought this was a good idea should be fired!"<br><br>
-      
-      The school administrator's first tap was on the menu. She found the items she wanted fairly quickly. When she tapped on an item, she was disappointed that it did not give any details other than price. She became frustrated when she discovered she could not order from the website. Having to call the restaurant to place her order was very inconvenient.<br><br>
-
-      The web developer found the site to be usable and did not find any glaring problems. However, she felt they should have done more to make it obvious that the site was meant to serve as a stagnant menu and not a site for mobile ordering. 
-      </p>
-
-      <div class="row">
-        <div class="col-4">
-          <span class="caption text-muted">Screenshots of the search box taken April 27, 2019:</span>
-          <img class="img-fluid" src="img/SushiMaki_mobile-search-box.jpg" alt="">
-        </div>
-        <div class="col-4">
-          <span class="caption text-muted">Screenshots of the search results taken April 27, 2019:</span>
-          <img class="img-fluid" src="img/SushiMaki_mobile-searchresults2.jpg" alt="">
-        </div>
-        <div class="col-4">
-            <span class="caption text-muted">Screenshots of the detail of menu item taken April 27, 2019:</span>
-            <img class="img-fluid" src="img/SushiMaki_mobile-result-detail.jpg" alt="">
-          </div>
-      </div>
-        <p>
-        When prompted with the task of searching for a food item. The handyman said the site on the phone was useless. He doesn't eat sushi and a bare site on the phone certainly will not entice him to consider trying sushi. "What good is 'search our menu', when you can't even find the menu?!" It took him a few random taps before he found the actual menu on the page. He finally typed "fish" in the search box. The search resulted in a list of items. The lack of decriptions and pictures of the items continued to further irritate him. <br><br>
-
-        Both the school administrator and web developer were able to search for their items without much work. The both agreed that the items needed more descriptions.
-
-        When asked whether the site was clear on how you can order items. All three answered no. All agreed the site needed to add more pictures and descriptions to their items. For those who are new to sushi, it would be difficult to make a determination on what to order without more information. <br><br>
-        </p>
+          The <a href="Report-potential_problems.pdf" target="_blank"><b><font color="orange">report on potential problems</b></font></a> listed the lack of text alternatives for non-text conent as the majority of the problems. The website is image heavy with most images lacking alternative text descriptions. Another potential problem that can be fixed is making it easier for users to see and hear content. The report also listed flashing images may cause seizures, images should contain three or less flashes to be deemed safe.</p>
         
         <h4><b>Conclusion</b></h4>
-        The testers found the site to function somewhat well on the mobile phone. The person with the most frustration was the handyman, who found the site to be the least usable. The layout of the site made the testers think they could order through the site, all were disappointed the only way to order was through calling the restuarant on the phone.<p></p>
+        <p>From the accessibility checker many problems and potential problems can be resolved through the addition of text help users. Because the site is image heavy, using the checker's recommendation to "Add text to the a element or the title attribute of the a element or, if an image is used within the anchor, add Alt text to the image." will solve the majority of problems. The checker also recommended that the site incorporate content that can be presented in different ways using a simpler layout. Again, this can be acheived through adding a label to the elements. </p>
   </article>
 
   <hr>
