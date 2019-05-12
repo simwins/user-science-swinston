@@ -92,39 +92,48 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Rounding out on the topic of accessibility, this week we used the WAVE and Lighthouse accessibility tools to analyze our User Science Journal webpages. I focused on three pages: my index, my about, and my previous blog post. Knowing the pages were mainly text with few images and external links, the results from the accessibility tools did not surprise me. Both tools found similar problems with each page. <br><br>
+          <p>Rounding out on the topic of accessibility, this week we used the <a href="http://wave.webaim.org/" target="_blank"><b>WAVE</b></a> and <a href="https://developers.google.com/web/tools/lighthouse/" target="_blank"><b>Lighthouse</b></a> accessibility tools to analyze our User Science Journal webpages. I focused on three pages: my <a href="Index.html" target="_blank"><b>Index</b></a>, my <a href="About.html" target="_blank"><b>About</b></a>, and my <a href="post5.html" target="_blank"><b>Blog Post 5.</b></a> Knowing the pages were mainly text with few images and external links, the results from the accessibility tools did not surprise me. Both tools found similar problems with each page. <br><br>
             
           <p>
-            <h4><b>Summary Detail</b></h4>
-            <p>The Lighthouse tool gave the index page the lowest Accessibility rating of 78, mainly due to the font color contrasts not meeting standards. The tool also found dead links on the footer of the page. The WAVE accessibility tool found the same issues with the contrast colors on the Index page as Lighthouse. It also indicated structural elements such as headings were not clear and to ensure that the texts on the page were marked as headings were indeed headings.<br>
+            <h4><b>Summary of Results and Fixes</b></h4>
+            <p>The Lighthouse tool gave the Index page the lowest Accessibility rating of 78, mainly due to the font color contrasts not meeting standards. The tool also found dead links on the footer of the page. The WAVE accessibility tool found the same issues with the contrast colors on the Index page as Lighthouse. It also indicated structural elements such as headings were not clear and to ensure that the texts on the page were marked as headings were indeed headings.<br><br>
+
+            I changed my font colors to black to increase the contrast. Then I removed the undefined  social media links on the footer of the page.
                 </p>
             
             <div class="row">
                 <div class="col-6">
-                    <span class="caption text">Screen shot of results of the original Index page:</span><img class="img-fluid" src="img/User_Science_Journal-Lighthouse_Audit.jpg" alt="Screenshot of the original Index Page">
+                    <span class="caption text">Screen shot of results of the original Index page:</span><img class="img-fluid" src="img/User_Science_Journal_Index_Lighthouse_Audit.jpg" alt="Screenshot of the original Index Page"><p></p>
                 </div>
                 <div class="col-6">
-                    <span class="caption text">Screen shot of results of the updated Index page:</span><img class="img-fluid" src="img/" alt="Screenshot of the updated Index Page">
+                    <span class="caption text">Screen shot of results of the updated Index page:</span><img class="img-fluid" src="img/User_Science_Journal_Index_Updates_Lighthouse_Audit.jpg" alt="Screenshot of the updated Index Page">
                 </div>
+            <p>Second lowest on the Lighthouse tool rating was Blog Post 5 page, it received a 81, again mainly due to the font color contrasts not meeting standards and links on the footer that were undefined. The WAVE accessibility tool found the same issues with the contrast colors, it also cautioned about the links to PDF documents. Any links to external documents should also meet accessibility standards.<br><br>
+
+            Again, I changed my font colors to black to increase the contrast and removed the undefined social media links on the footer of the page. I also added "alt" tags to the images. 
+                </p>
                 <div class="row">
                     <div class="col-6">
-                        <span class="caption text">Screen shot of results of the original About page:</span><img class="img-fluid" src="img/" alt="Screenshot of the original About Page">
+                    <span class="caption text">Screen shot of results of the original Blog Post 5 page:</span><img class="img-fluid" src="img/User_Science_Journal_Post_5-Lighthouse_Audit.jpg" alt="Screenshot of the original Post 5 Blog Page">
                     </div>
                     <div class="col-6">
-                        <span class="caption text">Screen shot of results of the updated About page:</span><img class="img-fluid" src="img/" alt="Screenshot of the updated About Page">
+                    <span class="caption text">Screen shot of results of the updated Blog Post 5 page:</span><img class="img-fluid" src="img/User_Science_Journal_Post_5_Updates-Lighthouse_Audit.jpg" alt="Screenshot of the updated Post 5 Blog Page"></a></p><br>
+                    </div> 
+            <p>The About page returned the least problems with the Lighthouse tool rating of 87. It is surprising that a page with as little contect as the About page can still return accessibility problems. <br><br>
+                            
+            The fix for this page was simply to remove the undefined links on the footer of ther page.
+                </p>
+                <div class="row">
+                    <div class="col-6">
+                    <span class="caption text">Screen shot of results of the original About page:</span><img class="img-fluid" src="img/User_Science_Journal_About-Lighthouse_Audit.jpg" alt="Screenshot of the original About Page"><p></p>
                     </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <span class="caption text">Screen shot of results of the original Post 5 Blog page:</span><img class="img-fluid" src="img/" alt="Screenshot of the original Post 5 Blog Page">
-                        </div>
-                        <div class="col-6">
-                            <span class="caption text">Screen shot of results of the updated Post 5 Blog  page:</span><img class="img-fluid" src="img/" alt="Screenshot of the updated Post 5 Blog Page">
-                        </div>
+                    <div class="col-6">
+                    <span class="caption text">Screen shot of results of the updated About page:</span><img class="img-fluid" src="img/User_Science_Journal_About_Updates-Lighthouse_Audit.jpg" alt="Screenshot of the updated About Page">
+                    </div>   
             </div>
-          </a></p>
-
+       
         <h4><b>Conclusion</b></h4>
-        <p>As we've explored the topic of accessibility, it has been proven crucial that we need to be attuned to it and build our websites with accessibility high on our priorities list. 
+        <p>In exploring the topic of accessibility, I've become keenly aware of the the work involved in making sure a page meets its standards. However, it has been proven crucial that we need to be attuned to it and build our websites with accessibility high on our priorities list from the beginning. 
         </p>
   </article>
 
