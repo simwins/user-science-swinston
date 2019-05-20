@@ -1,3 +1,10 @@
 .post-meta {
     color: black !important;
 }
+
+.center {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50% !important;
+  }
